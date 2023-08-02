@@ -1,0 +1,251 @@
+
+
+header {
+    background-color: black;
+    /* margin-bottom: -20px; */
+   /* margin-top: -20px;  */
+   height: 3rem;
+   width: 100%;
+
+   
+}
+
+
+
+
+ ul:first-of-type {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    padding-top: 1rem;
+    gap: 10px;
+   
+}
+
+ ul:last-of-type {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: end; */
+    gap: 10px;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li i {
+    color: white;
+    display: flex;
+    /* padding: .5rem 0; */
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-bottom: 3rem;  
+    padding-left: 6rem; 
+}
+
+.contact li a i {
+    gap:10px;
+}
+
+.contact {
+    padding-left: 50rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 2rem;
+    /* padding-bottom: 3rem; */
+    /* align-items: end; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header ends here */
+
+
+/* First body section starts here */
+
+ .first-body {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url('images/interior1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30rem; 
+    color: white;  
+    margin-top: 0;  
+} 
+    
+.body-1 {
+
+}
+
+.body-1-1 {
+    padding-top: 3rem;
+    padding-left: 8.5rem;
+
+}
+
+.body-1-2 {
+    padding-left: 52rem;
+    padding-top: 5rem;
+
+}
+
+.body-2 {
+    padding-left: 10rem;
+}
+  
+.color-contact {
+    color: orangered;
+}
+
+
+
+form {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+}
+  
+form input {
+width: 500px;
+height: 2rem;
+position: relative;
+
+}
+
+form input i {
+    /* position: absolute;
+    right: 20px; */
+    position: absolute;
+    top: 15px;
+    padding-left: 10px;
+    color: grey;
+    
+}
+
+form button {
+    border-radius: .5px;
+}
+
+.color-search {
+    background-color: orangered;
+}
+
+/* first body ends here */
+
+/* Apartments starts here */
+
+.apartments {
+    background-color: ghostwhite;
+    margin-top: .5rem;
+
+}
+
+.classic-line {
+    padding-left: 20rem;
+    padding-top: 3rem;
+
+}
+
+.classic-button {
+  margin-bottom: 2rem;
+  margin-left: 70rem;
+  /* border: transparent; */
+  /* color: orangered; */
+}
+
+.apartment-type {
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.type-1 {
+   background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/newyork9.jpg");
+   background-repeat: no repeat;
+   background-size:cover;
+   background-position: center;
+   width: 200px;
+   height: 150px;
+   margin-left: 3rem;
+} 
+
+.type-1-1 {
+    padding-left: 3rem;
+    line-height: 0;
+    padding-bottom: 1rem;
+
+}
+
+.type-1-1 i {
+
+}
+
+
+.type-2 {
+   background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior2.jpg");
+   background-repeat: no repeat;
+   background-size:cover;
+   background-position: center;
+   width: 200px;
+   height: 150px;
+   margin-left: 3rem;
+}
+
+.type-2-2 {
+    padding-left: 3rem;
+    line-height: 0;
+    padding-bottom: 1rem;
+}
+
+
+.type-3 {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior3.jpg");
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-left: 3rem;
+    
+}
+
+.type-3-3 {
+    padding-left: 3rem;
+    line-height: 0;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+.type-4 {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior4.jpeg");
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-left: 3rem;
+    
+}
+
+
+.type-4-4 {
+    padding-left: 3rem;
+    line-height: 0;
+    
+}
