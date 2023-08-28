@@ -1,251 +1,1182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-header {
-    background-color: black;
-    /* margin-bottom: -20px; */
-   /* margin-top: -20px;  */
-   height: 3rem;
-   width: 100%;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-   
+body {
+    font-family: Roboto;
 }
 
 
+/* Header starts here */
 
-
- ul:first-of-type {
+.header {
+    background-color: #000;
     display: flex;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    padding-top: 1rem;
-    gap: 10px;
-   
-}
-
- ul:last-of-type {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-items: end; */
-    gap: 10px;
-    padding-right: 3rem;
-    padding-bottom: 2rem;
-}
-
-
-nav ul li {
-    list-style: none;
+    justify-content: space-between;
 }
 
 nav ul li i {
-    color: white;
-    display: flex;
-    /* padding: .5rem 0; */
+    color: #fff;
+    font-size: .8rem;
 }
 
-.socials {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-start;
-    padding-bottom: 3rem;  
-    padding-left: 6rem; 
-}
-
-.contact li a i {
-    gap:10px;
-}
-
-.contact {
-    padding-left: 50rem;
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-right: 2rem;
-    /* padding-bottom: 3rem; */
-    /* align-items: end; */
-}
-
-nav ul li a {
+.contact-us li a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.socials-1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 10rem;
+}
+
+
+.contact-us {
+    list-style: none;
+    display: flex;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    gap: 10px;
+    padding-right: 8rem;
+}
+
+.phone i {
+    padding-right: .4rem;
+}
+
+.email i {
+    padding-right: .4rem;
 }
 
 /* Header ends here */
 
 
-/* First body section starts here */
-
- .first-body {
-    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url('images/interior1.jpg');
+/* Hero starts here */
+.hero {
+    background-image: linear-gradient(180deg, rgba(213, 197, 184, 1) 0%, rgba(18, 6, 5, 0.40948879551820727) 0%), url('images/interior1.jpg');
     background-size: cover;
     background-position: center;
-    height: 30rem; 
-    color: white;  
-    margin-top: 0;  
-} 
-    
-.body-1 {
-
+    height: 550px;
 }
 
-.body-1-1 {
+.hero-1 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
     padding-top: 3rem;
-    padding-left: 8.5rem;
-
 }
 
-.body-1-2 {
-    padding-left: 52rem;
-    padding-top: 5rem;
-
-}
-
-.body-2 {
+.hero-1 span {
     padding-left: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-  
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+    padding-right: 11.5rem;
+    font-weight: 500;
+    padding-top: .5rem;
+}
+
 .color-contact {
-    color: orangered;
+    color: #f47d05;
 }
 
 
+.hero-text {
+    color: white;
+    padding-top: 6.5rem;
+    padding-left: 9.5rem;
+
+}
+
+.hero-text span {
+    font-size: 3.2rem;
+    font-weight: 300;
+
+
+}
+
+.hero-text p:nth-of-type(1) {
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.hero-text p:nth-of-type(2) {
+    font-size: .8rem;
+    padding-top: 1rem;
+    line-height: 1.3rem;
+}
+
+.hero-text p:nth-of-type(3) {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+/* Hero ends here */
+
+
+/* Form starts here */
 
 form {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
     background-color: white;
+    padding-top: .7rem;
+    display: flex;
+    /* justify-content: center;  */
+    gap: 10px;
+    margin-left: 10rem;
+    padding-bottom: .7rem;
+
 }
-  
+
 form input {
-width: 500px;
-height: 2rem;
-position: relative;
+    padding: .5rem .5rem;
+    border-radius: 3px;
+    border: 1px solid grey;
+    width: 600px;
+    height: 2.5rem;
+    position: relative;
 
 }
 
-form input i {
-    /* position: absolute;
-    right: 20px; */
+
+input::placeholder {
+    opacity: .7;
+    padding-left: 1.5rem;
+}
+
+.input-icon i {
     position: absolute;
-    top: 15px;
-    padding-left: 10px;
     color: grey;
-    
+    top: 15px;
+    right: 900px;
+    padding-left: 10rem;
+
 }
+
 
 form button {
-    border-radius: .5px;
+    padding: .8rem .8rem;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: transparent;
+    height: 2.65rem;
+    /* width: 6rem;  */
+    opacity: .9;
+    margin-left: .5rem;
 }
 
-.color-search {
-    background-color: orangered;
+.btn i {
+    padding-right: .3rem;
 }
 
-/* first body ends here */
+
+.color-btn {
+    background-color: #f47d05;
+    color: white;
+    border: none;
+    width: 5rem;
+}
+
+/* Form ends here */
 
 /* Apartments starts here */
 
 .apartments {
     background-color: ghostwhite;
-    margin-top: .5rem;
+    padding-top: 5rem;
+}
+
+.apartments-head {
+    padding-left: 13rem;
 
 }
 
-.classic-line {
-    padding-left: 20rem;
+.apartments-head h2 {
+    font-size: 1.8rem;
+    padding-bottom: .4rem;
+}
+
+.apartments-head p {
+    color: grey;
+}
+
+
+.switch {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-right: 15.5rem;
+
+}
+
+.color {
+    padding: .5rem .5rem;
+    background-color: transparent;
+    color: #f47d05;
+    border: 1px solid #f47d05;
+    border-radius: 3px;
+    font-size: .7rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.apartment-type-1 {
+    background-image: linear-gradient(180deg, rgba(213, 197, 184, 1) 0%, rgba(18, 6, 5, 0.40948879551820727) 0%), url("images/newyork9.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px white;
+    width: 215px;
+    height: 150px;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.apartment-type-2 {
+    background-image: linear-gradient(180deg, rgba(213, 197, 184, 1) 0%, rgba(18, 6, 5, 0.40948879551820727) 0%), url("images/interior2.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px white;
+    width: 215px;
+    height: 150px;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.apartment-type-3 {
+    background-image: linear-gradient(180deg, rgba(213, 197, 184, 1) 0%, rgba(18, 6, 5, 0.40948879551820727) 0%), url("images/interior3.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px white;
+    width: 215px;
+    height: 150px;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.apartment-type-4 {
+    background-image: linear-gradient(0deg, rgba(21, 175, 229, 1) 0%, rgba(17, 17, 17, 1) 0%, rgba(169, 165, 186, 0.499124649859944) 55%), url("images/interior4.jpeg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px white;
+    width: 215px;
+    height: 150px;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* ___________before____________
+width: 200px;
+    height: 150px; */
+/* width: 215px;
+  height: 150px; */
+
+
+
+.btn-type {
+    background-color: rgb(46, 41, 41);
+    color: white;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+    font-size: .6rem;
+    padding: .2rem .2rem;
+    border: none;
+    opacity: .8;
+}
+
+/* rgb(33, 33, 33); */
+
+.price-p {
+    color: white;
+    padding-left: 1rem;
+    padding-top: 5.5rem;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.apartment-text {
+    font-size: .8rem;
+    padding-left: 3rem;
+    opacity: .7;
+}
+
+
+.apartment-text p:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding-bottom: .4rem;
+}
+
+
+.apartment-text p:nth-of-type(2) {
+    padding-bottom: .4rem;
+}
+
+
+.text-icons {
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+
+.apartment-text p:nth-of-type(3) {
+    font-size: .7rem;
+    padding-bottom: 5rem;
+}
+
+/* Apartments ends here */
+
+
+/* Team members starts here */
+
+.team {
+    background-color: white;
+}
+
+.team-head {
     padding-top: 3rem;
+    padding-left: 16.8rem;
+    padding-bottom: 3rem;
+}
+
+
+.team-head h2 {
+    padding-bottom: .5rem;
+}
+
+
+.team-head p {
+    color: grey;
+    font-size: .8rem;
+}
+
+
+.members {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+
+.mem-1 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/1team.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    margin-right: 1rem;
+    border-radius: 3px;
+}
+
+/* ________BEFORE________
+width: 280px;
+height: 400px; */
+
+.mem-2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/Team2.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    margin-right: 1rem;
+    border-radius: 3px;
+}
+
+
+.mem-3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/Team3.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    margin-right: 1rem;
+    border-radius: 3px;
+}
+
+
+.mem-4 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/Team4.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    border-radius: 3px;
+}
+
+
+.members p {
+
+    color: white;
+    padding-left: 4rem;
+    font-size: .8rem;
 
 }
 
-.classic-button {
-  margin-bottom: 2rem;
-  margin-left: 70rem;
-  /* border: transparent; */
-  /* color: orangered; */
-}
-
-.apartment-type {
-    /* display: flex; */
-    /* justify-content: center; */
+.members p:nth-of-type(1) {
+    padding-top: 18rem;
+    font-weight: 600;
 
 }
 
-.type-1 {
-   background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/newyork9.jpg");
-   background-repeat: no repeat;
-   background-size:cover;
-   background-position: center;
-   width: 200px;
-   height: 150px;
-   margin-left: 3rem;
+
+.members p:last-of-type(2) {
+    padding-top: 7rem;
+
+}
+
+/* Team members ends here */
+
+
+
+/* New york starts here */
+
+.new-york {
+    background-color: ghostwhite;
+}
+
+
+.new-york-text {
+    padding-top: 5rem;
+    padding-left: 15rem;
+    padding-bottom: 1rem;
+}
+
+
+.new-york-text h2 {
+    padding-bottom: .5rem;
+}
+
+
+.new-york-text p {
+    color: grey;
+    font-size: 1rem;
+}
+
+
+.york {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    gap: 1rem;
+    justify-items: center;
+    margin-top: 0.5rem;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding-bottom: .5rem;
+    margin-left: 15.8rem;
+    margin-right: 15.8rem;
+}
+
+
+
+.york-1 {
+    background-image: url(images/newyork1.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+.york-2 {
+    background-image: url(images/newyork2.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+.york-3 {
+    background-image: url(images/newyork3.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+
+.york-4 {
+    background-image: url(images/newyork4.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+.york-5 {
+    background-image: url(images/newyork5.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+.york-6 {
+    background-image: url(images/newyork6.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+
+.york-7 {
+    background-image: url(images/newyork7.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+.york-8 {
+    background-image: url(images/newyork8.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+
+.york-9 {
+    background-image: url(images/newyork9.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 225px;
+    border-radius: 2px;
+}
+
+
+.feat {
+    background-color: rgb(122, 190, 20);
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: .6rem;
+    padding: .2rem .2rem;
+    border: none;
+}
+
+.rent {
+    background-color: rgb(46, 41, 41);
+    color: white;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: .6rem;
+    padding: .2rem .2rem;
+    border: none;
+}
+
+
+.york-text {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: .8rem;
+    padding-left: 1.5rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    /* margin-right: 162.9px; */
+    border-radius: 3px;
+    width: 18.7rem;
+    opacity: .8;
+}
+
+
+.york-text p:nth-of-type(1) {
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+
+
+
+.york-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.york-price {
+    color: #f47d05;
+}
+
+.york-icons {
+    padding-right: 1.8rem;
+}
+
+.york-icons .i {
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+
+/* .york-prices p:nth-of-type(1) {
+    color: #f47d05;
+} */
+
+
+.load-btn {
+    color: #f47d05;
+    background-color: transparent;
+    border: 1px solid #f47d05;
+    display: flex;
+    justify-content: center;
+    padding: .7rem 1.5rem;
+    border-radius: 3px;
+    margin-left: 42rem;
+    /* margin-bottom: 3rem; */
+    cursor: pointer;
+}
+
+/* .load-btn {
+margin-top: 2rem;
+padding: .5rem 0.5rem;
+width: 30%;
+background-color: transparent;
+color: #f47d05;
+border-color: #f47d05;
+border-radius: 3px;
+margin-bottom: 5rem;
+margin-left: 5rem;
+} */
+
+/* New york ends here */
+
+
+
+
+/* Services starts here */
+
+.services {
+    background-image: linear-gradient(180deg, rgb(25, 180, 197) 0%, rgba(5, 14, 18, 0.409) 0%), url("images/couch.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 3rem 10rem 3rem 8rem;
+}
+
+.services-head {
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.services-head h2 {
+    padding-bottom: 0.8rem;
+}
+
+
+.services-head p {
+    padding-bottom: 0.8rem;
+
+}
+
+
+.services-text {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.1rem;
+    padding-bottom: 4rem;
+    padding-left: 15%;
+    padding-right: 16%;
+
+
+}
+
+
+.serve {
+    border: 0.3px solid white;
+    background-color: white;
+    border-radius: 1.5px;
+    width: 500px;
+    height: 330px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.serve p:nth-of-type(1) {
+    color: #f47d05;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.serve span {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    padding-top: 2.5rem;
+    opacity: 0.7;
+}
+
+.serve p:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: grey;
+    line-height: 1.4rem;
+}
+
+.serve button {
+    border: transparent;
+    padding: 0.8rem 2rem;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #f47d05;
+    opacity: 0.8;
+}
+
+/* Services ends here */
+
+
+
+
+/* Blog starts here */
+
+.blog {
+    background-color: ghostwhite;
+}
+
+
+.blog-head {
+    padding-left: 18.4rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    /* line-height: 1.5rem; */
+}
+
+
+.blog-head h2 {
+    padding-bottom: .5rem;
+}
+
+
+.blog-head p {
+    color: grey;
+    font-size: .8rem;
+}
+
+
+
+.blog-container {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+
+}
+
+
+.blog-text {
+    border: 10px solid white;
+    background-color: #fff;
+    /* border-right: 8px; */
+    margin-bottom: 8rem;
+
+
+}
+
+
+.blog-image-1 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(./images/blog1.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: left;
+    /* border: 9px solid white; */
+    border-radius: 1.5px;
+    width: 215px;
+    height: 150px;
+    margin-bottom: .8rem;
+}
+
+.blog-image-2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/blog2.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: left;
+    /* border: 9px solid white; */
+    border-radius: 1.5px;
+    width: 215px;
+    height: 150px;
+    margin-bottom: .8rem;
+}
+
+
+.blog-image-3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/blog3.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: left;
+    /* border: 9px solid white; */
+    border-radius: 1.5px;
+    width: 215px;
+    height: 150px;
+    margin-bottom: .8rem;
+}
+
+
+.blog-image-4 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.007) 50%, rgba(18, 6, 5, 0.686) 100%), url(images/blog4.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: left;
+    /* border: 9px solid white; */
+    border-radius: 1.5px;
+    width: 215px;
+    height: 150px;
+    margin-bottom: .8rem;
+}
+
+
+
+.blog-text-start {
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: .6rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+
+
+.blog-text-start p:first-of-type {}
+
+
+.blog-text-start p:last-of-type {
+    padding-left: .5rem;
+}
+
+.start-icons .i-1 {
+    gap: 5px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+
+.start-icons .i-2 {
+    gap: 5px;
+    text-decoration: none;
+    color: #f47d05;
+    display: flex;
+}
+
+
+.blog-text-middle {
+    font-size: .7rem;
+    padding-left: 1rem;
+}
+
+.blog-text-middle span {
+    font-weight: 600;
+    line-height: 1.2rem;
+    padding-bottom: .5rem;
+    font-size: .8rem;
+}
+
+
+.blog-text-middle p:first-of-type {
+    line-height: 1rem;
+    padding-top: .5rem;
+}
+
+.blog-text-middle p:last-of-type {
+    color: #f47d05;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+
+.blog-text-end {
+    font-size: x-small;
+    padding-left: 1rem;
+    border-top: 8px;
+}
+
+.end-icon .i {
+    gap: 5px;
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    /* font-size: .6; */
+}
+
+
+/* Blog ends here */
+
+
+
+
+
+/* About site starts here */
+
+
+.about {}
+
+.site {
+    background-color: rgb(33, 29, 29);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* text-align: center;   */
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+/* .site 2 {
+    background-color: rgba(0, 0, 0, 0.893);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+} */
+
+.about-site {
+    line-height: 2rem;
+}
+
+.about-site span{
+    font-weight: 600;
+    font-size: 1.5rem;
 } 
 
-.type-1-1 {
-    padding-left: 3rem;
-    line-height: 0;
-    padding-bottom: 1rem;
+
+ .about-site p:first-of-type {
+    font-weight: 600;
+    font-size: .8rem;
+    padding-bottom: 1.2rem;
+} 
+
+
+ .about-site p:last-of-type {
+    font-size: .8rem;
+}
+
+.about-site .about-site-icon {
+color: #fff;
+text-decoration: none;
+gap: 8px;
+} 
+
+
+.read-more-btn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.location {
+display: flex;
+flex-direction: column;
+}
+
+.location span {
+    font-weight: 600;
+    font-size: .8rem;
+    padding-bottom: 1.2rem;
+}
+
+.location p:nth-of-type(1) {
 
 }
 
-.type-1-1 i {
+
+
+.location p:nth-of-type(2) {
 
 }
 
 
-.type-2 {
-   background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior2.jpg");
-   background-repeat: no repeat;
-   background-size:cover;
-   background-position: center;
-   width: 200px;
-   height: 150px;
-   margin-left: 3rem;
+
+.location p:nth-of-type(3) {
+font-weight: 600;
 }
 
-.type-2-2 {
-    padding-left: 3rem;
-    line-height: 0;
-    padding-bottom: 1rem;
+.locate-us-icons .location-icon {
+    color: #fff;
+    text-decoration: none;
+    /* gap: 10px; */
+    font-size: .7rem;
+}
+
+.locate-us-icons .envelope-icon {
+    color: #fff;
+    text-decoration: none;
+    /* gap: 10px; */
+    font-size: .7rem;
 }
 
 
-.type-3 {
-    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior3.jpg");
-    background-repeat: no repeat;
-    background-size:cover;
-    background-position: center;
-    width: 200px;
-    height: 150px;
-    margin-left: 3rem;
+
+.discover {
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.discover span {
     
 }
 
-.type-3-3 {
-    padding-left: 3rem;
-    line-height: 0;
-    padding-bottom: 1rem;
+.discover-icons {
+    color: #fff;
+    text-decoration: none;
+    /* gap: 10px; */
+    font-size: .7rem;
+    padding-left: 1rem;
+}
+
+.discover-icons-1 {
+    color: #fff;
+    text-decoration: none;
+    /* gap: 10px; */
+    font-size: .7rem;
+    /* padding-top: 1.2rem; */
+    
+    
+}
+
+.discover p:nth-of-type(1) {
+    padding-right: 1rem;
+}
+/* About site ends here */
+
+
+
+
+
+/* Footer starts here */
+
+.handles {
+background-color: #000;
 }
 
 
 
+.social-handles {
+display: flex;
+justify-content: space-between;
+padding-right: 15%;
+padding-left: 15%;
+padding-top: 1rem;
+padding-bottom: 5rem;
+font-size: .8rem;
+font-weight: 600;
+}
 
-
-
-.type-4 {
-    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url("images/interior4.jpeg");
-    background-repeat: no repeat;
-    background-size:cover;
-    background-position: center;
-    width: 200px;
-    height: 150px;
-    margin-left: 3rem;
+.copy-right {
+ display: flex;
+ justify-content: space-between;
     
 }
 
 
-.type-4-4 {
-    padding-left: 3rem;
-    line-height: 0;
+.copyright-icon {
+    text-decoration: none;
+    color: #fff;
+ 
     
 }
+
+
+.privacy {
+color: #fff;
+display: flex;
+}
+
+
+.social-media {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+
+
+.social-media li a i {
+     color: #fff; 
+}
+/* Footer ends here */

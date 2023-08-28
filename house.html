@@ -1,165 +1,673 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="house.css">
-<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="house.css">
 
-    <title>Document</title>
+    <title>Real Estate</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-        <ul>
-            <div class="socials">
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        </div>
-            <div class="contact">
-            <li class="contact-phone"><a href="#"><i class="fa-solid fa-phone"></i> (678) 987 6543</a></li>
-            <li class="contact-email"><a href="#"><i class="fa-regular fa-envelope"></i> houzez@favethemes.com</a></li>
-        </div>
-        </ul>
-    </nav>
-    </header>
-    <!-- First Body Section Starts Here -->
 
-       <section class="first-body">
-        <div class="body-1">
-            <nav>
-                <div class="body-1-1">
-                    <span><i class="fa-solid fa-location-dot"></i>Houzez</span>
-                </div>
-                <ul class="body-1-2">
-                    <li><a href=""></a>HOME</li>
-                    <li><a href=""></a>ABOUT US</li>
-                    <li><a href=""></a>LISTINGS</li>
-                    <li><a href=""></a>OUR AGENTS</li>
-                    <li><a href=""></a>FAQ</li>
-                    <li><a href=""></a>BLOG</li>
-                    <li><a href="" class="color-contact">CONTACT</a></li>
+    <!-- Header sections starts here -->
+
+    <section class="header">
+        <div class="head-1">
+            <nav class="socials">
+                <ul class="socials-1">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
+            </nav>
+
+        </div>
 
 
 
+        <div class="head-2">
+            <nav class="contact">
+                <ul class="contact-us">
+                    <li><a href="" class="phone"><i class="fa-solid fa-phone"></i>(678) 987 6543</a></li>
+                    <li><a href="" class="email"><i class="fa-regular fa-envelope"></i>houzez@favethemes.com</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+    </section>
+
+    <!-- Header sections ends here -->
+
+    <!-- Hero section starts here -->
+
+    <section class="hero">
+        <div>
+            <nav>
+                <div class="hero-1">
+                    <span><i class="fa-solid fa-location-dot"></i>houzez</span>
+                    <ul class="menu">
+                        <li><a href=""></a>HOME</li>
+                        <li><a href=""></a>ABOUT US</li>
+                        <li><a href=""></a>LISTINGS</li>
+                        <li><a href=""></a>OUR AGENTS</li>
+                        <li><a href=""></a>FAQ</li>
+                        <li><a href=""></a>BLOG</li>
+                        <li class="color-contact"><a href=""></a>CONTACT</li>
+                    </ul>
+                </div>
             </nav>
         </div>
 
-        <div class="body-2">
-
-        <p>4 Beds-2 Baths-$1200 Sq Ft</p>
-
-        
+        <div class="hero-text">
+            <p>4 Beds-2 Baths-$1200 Sq Ft</p>
             <span>Amazing apartment for family</span>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. 
-                <br>corrupti velit temporibus cupiditate cum 
-                vero nam quos aut. <br>Lorem ipsum dolor sit amet. 
+            <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                <br>corrupti velit temporibus cupiditate cum
+                vero nam quos aut. <br>Lorem ipsum dolor sit amet.
+            </p>
+
+            <p class="price">$890000</p>
+        </div>
+
+    </section>
+
+    <section class="form">
+        <form action="">
+            <div class="input-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Enter Keyword...">
+            </div>
+
+            <button>Status</button>
+            <button>Type</button>
+            <button>Price</button>
+            <button class="btn"><i class="fa-solid fa-bed"></i>Beds</button>
+            <button class="btn"><i class="fa-solid fa-gear"></i>Advanced</button>
+            <button class="color-btn">Search</button>
+        </form>
+    </section>
+
+    <!-- Hero section ends here -->
+
+    <!-- Apartments section starts here -->
+
+    <section class="apartments">
+        <div class="apartments-head">
+            <h2>Find Your Perfect Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        </div>
+
+        <div class="switch">
+            <button class="color">Prev</button>
+            <button class="color">Next</button>
+        </div>
+
+
+
+        <div class="container">
+            <div>
+                <div class="apartment-type-1">
+                    <button class="btn-type">FOR SALE</button>
+                    <p class="price-p">$890,000</p>
+                </div>
+
+                <div class="apartment-text">
+                    <p>Amazing Apartment For Family</p>
+                    <p><a href="" class="text-icons"><i class="fa-solid fa-bed"></i>4<i
+                                class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200 Sq Ft</a>
+                    </p>
+                    <p>APARTMENT</p>
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class="apartment-type-2">
+                    <button class="btn-type">FOR SALE</button>
+                    <p class="price-p">$450,000</p>
+                </div>
+
+                <div class="apartment-text">
+                    <p>Modern Apartment</p>
+                    <p><a href="" class="text-icons"><i class="fa-solid fa-bed"></i>4<i
+                                class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200 Sq Ft</a>
+                    </p>
+                    <p>APARTMENT</p>
+                </div>
+
+            </div>
+
+
+
+
+            <div>
+                <div class="apartment-type-3">
+                    <button class="btn-type">FOR RENT</button>
+                    <p class="price-p">$11,500/month</p>
+                </div>
+
+                <div class="apartment-text">
+                    <p>Family Home</p>
+                    <p><a href="" class="text-icons"><i class="fa-solid fa-bed"></i>4<i
+                                class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200 Sq Ft</a>
+                    </p>
+                    <p>APARTMENT</p>
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class="apartment-type-4">
+                    <button class="btn-type">FOR SALE</button>
+                    <p class="price-p">$250,000</p>
+                </div>
+
+                <div class="apartment-text">
+                    <p>Modern Apartment</p>
+                    <p><a href="" class="text-icons"><i class="fa-solid fa-bed"></i>4<i
+                                class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200 Sq Ft</a>
+                    </p>
+                    <p>APARTMENT</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Apartments section ends here -->
+
+
+    <!-- Team members section starts here -->
+    <section class="team">
+        <div class="team-head">
+            <h2>Meet Our Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        </div>
+
+
+        <div class="members">
+            <div class="mem-1">
+                <p>Kathryn Wallace</p>
+                <p>Chair Manager</p>
+            </div>
+
+
+            <div class="mem-2">
+                <p>Jerry Edwards</p>
+                <p>Sales Manager</p>
+            </div>
+
+            <div class="mem-3">
+                <p>Virginia Holland</p>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="mem-4">
+                <p>Donald Douglas</p>
+                <p>Marketing Strategist</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Team members section ends here -->
+
+
+
+    <!-- New york section starts hero -->
+
+    <section class="new-york">
+
+        <div class="new-york-text">
+            <h2>New York City Real Estate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+        </div>
+
+
+        <div class="york">
+
+            <div>
+                <div class="york-1">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR RENT</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Contemporary Apartment</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-2">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Renovated Apartment</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-3">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR RENT</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Relaxing Apartment Bay View</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-4">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Penthouse Apartment</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-5">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR RENT</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Comfortable And Ample Apartment</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-6">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Design Place Apartment</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <div class="york-7">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Luxury Apartment Bay View</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-8">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Luxury Family Home</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="york-9">
+                    <button class="feat">FEATURED</button>
+                    <button class="rent">FOR SALE</button>
+                </div>
+
+
+                <div class="york-text">
+                    <p>Amazing Apartment For Family</p>
+                    <div class="york-p">
+                        <p class="york-price">$890,000</p>
+                        <p class="york-icons"><a href="" class="i"><i class="fa-solid fa-bed"></i>4<i
+                                    class="fa-solid fa-shower"></i>2<i class="fa-solid fa-ruler-combined"></i>1200</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <button class="load-btn">Load More</button>
+
+        </div>
+
+
+    </section>
+
+    <!-- New york sections ends here -->
+
+
+    <!-- Services section starts hero-text -->
+
+    <section class="services">
+
+        <div class="services-head">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        </div>
+
+        <div class="services-text">
+
+            <div class="serve">
+                <p><i class="fa-solid fa-border-all"></i></p>
+                <span>Choice Of Listing Templates</span>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Fugit velit dolorum <br>tempora sapiente eligendi reiciendis <br>
                 </p>
+                <button>Read More</button>
+            </div>
 
-                <p>$890000</p>
-                </div> 
-       </section>
-        <!-- First Body Section Ends Here -->
-        
-<section>
-<form action="" class="buttons">
-    <div class="search-icon">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    <input type="text" name="" placeholder="Enter Keyword...">
-   </div>
 
-<button>Status</button>
-<button>Type</button>
-<button>Price</button>
-<button><i class="fa-solid fa-bed"></i>Beds</button>
-<button><i class="fa-solid fa-gear"></i>Advanced</button>
-<button class="color-search">Search</button>
 
-</form> 
+            <div class="serve">
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                <span>Advanced Search</span>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Fugit velit dolorum <br>tempora sapiente eligendi reiciendis <br>
+                </p>
+                <button>Read More</button>
+            </div>
 
-</section>
 
-<!-- Apartments section starts here -->
 
-<section class="apartments">
-    <div class="classic-line">
-        <h2>Find Your Perfect Home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-    </div>
+            <div class="serve">
+                <p><i class="fa-solid fa-arrow-up-wide-short"></i></p>
+                <span>Powerful Filters</span>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Fugit velit dolorum <br>tempora sapiente eligendi reiciendis <br>
+                </p>
+                <button>Read More</button>
+            </div>
 
-    <div class="classic-button">
-       <button>Prev</button>
-       <button>Next</button>
-   </div>
-   
 
-    <div class="apartment-type">
+        </div>
+    </section>
 
-        <div class="type-1">
-            <button class="type-1-button">FOR SALE</button>
-            <p class="type-1-para">$890,000</p>
+    <!-- Services section ends here -->
+
+    <!-- Blog section starts here -->
+
+    <section class="blog">
+
+
+        <div class="blog-head">
+            <h2>From Our Blog</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing</P>
         </div>
 
-        <div class="type-1-1">
-            <p>Amazing Apartment For Family</p>
-            <p><i class="fa-solid fa-bed"></i>4<i class="fa-solid fa-shower"></i>2<i class="fa-solid fa-hill-rockslide"></i>1200 Sq Ft</p>
-            <p>Apartment</p>
-           </div>
+        <div class="blog-container">
 
-        <div class="type-2">
-            <button>FOR SALE</button>
-            <p>$450,000</p>
+            <div class="blog-text">
+                <div class="blog-image-1"></div>
+                <div class="blog-text-start">
+                    <p class="start-icons"><a href="" class="i-1"><i class="fa-regular fa-calendar-days"></i>March 9,
+                            2016</a></p>
+                    <p class="start-icons"><a href="" class="i-2"><i class="fa-solid fa-tag"></i>Business</a></p>
+                </div>
+
+                <div class="blog-text-middle">
+                    <span>Skills That You Can Learn In <br>The Real Estate Market</span>
+                    <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Est deleniti <br>minus
+                        reiciendis
+                        eligendi, quidem esse...</p>
+                    <p>Continue reading</p>
+                </div>
+
+
+                <div class="blog-text-end">
+                    <P class="end-icon"><a href="" class="i"><i class="fa-solid fa-user"></i>by Martin Moore</a></P>
+                </div>
+
+            </div>
+
+
+            <div class="blog-text">
+                <div class="blog-image-2"></div>
+                <div class="blog-text-start">
+                    <p class="start-icons"><a href="" class="i-1"><i class="fa-regular fa-calendar-days"></i>March 9,
+                            2016</a></p>
+                    <p class="start-icons"><a href="" class="i-2"><i class="fa-solid fa-tag"></i>Construction</a></p>
+                </div>
+
+                <div class="blog-text-middle">
+                    <span>Learn The Truth About Real <br>Estate Industry</span>
+                    <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Est deleniti <br>minus
+                        reiciendis
+                        eligendi, quidem esse...</p>
+                    <p>Continue reading</p>
+                </div>
+
+
+                <div class="blog-text-end">
+                    <P class="end-icon"><a href="" class="i"><i class="fa-solid fa-user"></i>by Martin Moore</a></P>
+                </div>
+
+            </div>
+
+
+
+            <div class="blog-text">
+                <div class="blog-image-3"></div>
+                <div class="blog-text-start">
+                    <p class="start-icons"><a href="" class="i-1"><i class="fa-regular fa-calendar-days"></i>March 9,
+                            2016</a></p>
+                    <p class="start-icons"><a href="" class="i-2"><i class="fa-solid fa-tag"></i>Real Estate</a></p>
+                </div>
+
+                <div class="blog-text-middle">
+                    <span>10 Quick Tips About Business <br>Development</span>
+                    <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Est deleniti <br>minus
+                        reiciendis
+                        eligendi, quidem esse...</p>
+                    <p>Continue reading</p>
+                </div>
+
+
+                <div class="blog-text-end">
+                    <P class="end-icon"><a href="" class="i"><i class="fa-solid fa-user"></i>by Martin Moore</a></P>
+                </div>
+
+            </div>
+
+
+
+            <div class="blog-text">
+                <div class="blog-image-4"></div>
+                <div class="blog-text-start">
+                    <p class="start-icons"><a href="" class="i-1"><i class="fa-regular fa-calendar-days"></i>March 9,
+                            2016</a></p>
+                    <p class="start-icons"><a href="" class="i-2"><i class="fa-solid fa-tag"></i>Real Estate</a></p>
+                </div>
+
+                <div class="blog-text-middle">
+                    <span>14 Misconceptions <br>About Business Development</span>
+                    <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Est deleniti <br>minus
+                        reiciendis
+                        eligendi, quidem esse...</p>
+                    <p>Continue reading</p>
+                </div>
+
+
+                <div class="blog-text-end">
+                    <P class="end-icon"><a href="" class="i"><i class="fa-solid fa-user"></i>by Martin Moore</a></P>
+                </div>
+
+            </div>
+
         </div>
+    </section>
 
-        <div class="type-2-2">
-            <p>Modern Apartment</p>
-            <p><i class="fa-solid fa-bed"></i>4<i class="fa-solid fa-shower"></i>2<i class="fa-solid fa-hill-rockslide"></i>1200 Sq Ft</p>
-            <p>Apartment</p>
+    <!-- Blog section ends here -->
+
+
+
+    <!-- Site section starts hero-text -->
+
+    <section section="about">
+        <div class="site">
+
+            <div class="about-site">
+                <p>About Site</p>
+                <span><a href="" class="about-site-icon"><i class="fa-solid fa-location-dot"></i>houzez</a></span>
+                <p>Houzez is a premium wordPress theme for real estate where modern <br>aesthetics are combined with
+                    tasteful simplicity.</p>
+                <button class="read-more-btn">Read more</button>
+
+            </div>
+
+            <div class="location">
+                <span>Contact Us</span>
+                <p class="locate-us-icons"><a href="" class="location-icon"><i class="fa-solid fa-location-dot"></i>774 NE
+                        84TH St Miami, FL 33879</a></p>
+                <p class="locate-us-icons"><a href="" class="envelope-icon"><i
+                            class="fa-regular fa-envelope"></i>email@email.com</a></p>
+                <p>contact us</p>
+            </div>
+
+
+            <div class="discover">
+                <span>Discover</span>
+                <p><a href="" class="discover-icons-1"><i class="fa-solid fa-greater-than"></i>Residential</a></p>
+                <p><a href="" class="discover-icons"><i class="fa-solid fa-greater-than"></i>Apartment</a></p>
+                <p><a href="" class="discover-icons"><i class="fa-solid fa-greater-than"></i>Single Family Home</a></p>
+                <p><a href="" class="discover-icons"><i class="fa-solid fa-greater-than"></i>Villa</a></p>
+            </div>
+
+
         </div>
+    </section>
 
-        <div class="type-3">
-            <button>FOR SALE</button>
-            <p>$11,500/month</p>
+    <!-- Site sections ends here -->
+
+
+    <!-- Footer starts here -->
+
+    <footer class="handles">
+        <div class="social-handles">
+            <div class="copy-rigth">
+                <p class="copyright"><a href="" class="copyright-icon"><i class="fa-regular fa-copyright"></i>Houzez-All
+                        rigths reserved</a></p>
+            </div>
+            <div class="privacy">
+                <p>Privacy Terms and Conditions Contact</p>
+            </div>
+            <div class="socials">
+                <ul class="social-media">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="type-3-3">
-            <p>Family Home</p>
-            <p><i class="fa-solid fa-bed"></i>4<i class="fa-solid fa-shower"></i>2<i class="fa-solid fa-hill-rockslide"></i>1200 Sq Ft</p>
-            <p>Apartment</p>
-        </div>
-
-        <div class="type-4">
-            <button>FOR SALE</button>
-            <p>$250,000</p>
-        </div>
-
-        <div class="type-4-4">
-            <p>Modern Apartment</p>
-            <p><i class="fa-solid fa-bed"></i>4<i class="fa-solid fa-shower"></i>2<i class="fa-solid fa-hill-rockslide"></i>1200 Sq Ft</p>
-            <p>Apartment</p>
-        </div>
+    </footer>
 
 
-    </div>
 
-
-</section>
-
-<!-- Apartments section ends here -->
+    <!-- Footer ends here -->
 
 
 
 
 
-  
+
+
+
+
+
+
+
 
 
 
@@ -172,4 +680,5 @@
 
 
 </body>
+
 </html>
